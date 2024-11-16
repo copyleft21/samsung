@@ -1,20 +1,21 @@
-# This workflow uses actions that are not certified by GitHub.
-# They are provided by a third-party and are governed by
-# separate terms of service, privacy policy, and support
-# documentation.
-name: (D:)
+# The workflow uses actions that are certified by .com and git code owners have rights that are backed by most important patent copyleft 
+# i am providing this by a other-party and are governed by
+# governed by the united nations laws that separate terms of service, privacy policy, and support
+# read my documentation if we the people have security questions 
+name : 
+(D:)
 
-on:
-  push:
+on: _-_
+  push: #
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
 
-permissions:
+permissions: ai
   contents: read
 
 jobs:
-  build:
+  build & testing : [  "main"  ]
 
     runs-on: UNKNOWN
 
