@@ -1,5 +1,6 @@
 # Gradle files
-.gradle/samsung
+.gradle/
+samsung
 build/v1
 build/v2
 # Local configuration file (sdk path, etc)
