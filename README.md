@@ -1,2 +1,3 @@
-# samsung/a03susq/a03su12/SP1A.210812.016/A037USQS8DXF3
+# samsung/a03susq/a03su12/SP1A.210812.016/
+user/release-keys
  
