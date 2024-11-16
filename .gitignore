@@ -1,7 +1,7 @@
 # Gradle files
 .gradle/samsung
 build/v1
-
+build/v2
 # Local configuration file (sdk path, etc)
 local.properties
 
