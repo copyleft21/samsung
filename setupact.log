@@ -1,0 +1,399 @@
+2024-03-28 11:52:20, Info                  MOUPG  *************** SetupHost Logging Begin ***************
+2024-03-28 11:52:20, Info                  MOUPG  SetupHost::Initialize
+2024-03-28 11:52:20, Info                  MOUPG  SetupHost::Initialize: ModulePath             = [C:\$Windows.~WS\Sources]
+2024-03-28 11:52:20, Info                  MOUPG  SetupHost::Initialize: WorkingPath            = [C:\$Windows.~WS\Sources]
+2024-03-28 11:52:20, Info                  MOUPG  SetupHost::Initialize: LoggingPath            = [C:\$Windows.~WS\Sources\Panther]
+2024-03-28 11:52:20, Info                  MOUPG  SetupHost::Initialize: MediaPath              = []
+2024-03-28 11:52:20, Info                  MOUPG  SetupHost::Initialize: InstallFilePath        = []
+2024-03-28 11:52:20, Info                  MOUPG  SetupHost::Initialize: ActionListFilePath     = []
+2024-03-28 11:52:20, Info                  MOUPG  SetupHost::Initialize: CmdLine                = [/Download /Web  ]
+2024-03-28 11:52:20, Info                  MOUPG  SetupHost::Initialize: Mode                   = [0x8]
+2024-03-28 11:52:20, Info                  MOUPG  SetupHost::Initialize: Scenario               = [0x7]
+2024-03-28 11:52:20, Info                  MOUPG  SetupHost::Initialize: Flags                  = [0x800]
+2024-03-28 11:52:20, Info                  MOUPG  SetupHost: Setup build version is: 10.0.19041.572 (vb_release_svc_prod1.201007-1724)
+2024-03-28 11:52:20, Info                  CONX   pGetHostCSDBuildNumber: 'HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\CSDBuildNumber' does not exist. Assume 0
+2024-03-28 11:52:20, Info                  CONX   Host OS version: 10.0.22631.0  (0.0) Platform 0x2, SuiteMask 0x300, ProdType 0x1
+2024-03-28 11:52:20, Info                  CONX   Source OS: Host SKU Info: Edition = 'Core', Edition Type = 'Client', Installation Type = 'Complete', Product Name = 'Windows 11 Home', Arch = amd64, StationType = Client Workstation, Stage type = Staged Image
+2024-03-28 11:52:21, Info                  MOUPG      Host OS License State   [ Genuine ]
+2024-03-28 11:52:21, Info                  MOUPG      Host OS Architecture    [ x64 ]
+2024-03-28 11:52:21, Info                  MOUPG      Host OS Language Id     [ 1033 ]
+2024-03-28 11:52:21, Info                  MOUPG      User UI Language Id     [ 1033 ]
+2024-03-28 11:52:21, Info                  MOUPG      Host OS Edition         [ Core ]
+2024-03-28 11:52:21, Info                  MOUPG      Host OS Version         [ 10.0.22631 ]
+2024-03-28 11:52:21, Info                  MOUPG      Host OS Build String    [ 22621.1.amd64fre.ni_release.220506-1250 ]
+2024-03-28 11:52:21, Info                  MOUPG  SetupHost::InitializeComponents
+2024-03-28 11:52:21, Info                  MOUPG  SetupHost: Loading ID: [c7b6e4de-b741-42d8-ac05-16738c9e0bc5] from [C:\$Windows.~WS\Sources\MediaSetupUIMgr.dll]...
+2024-03-28 11:52:21, Info                  MOUPG  SetupHost: Loading complete.
+2024-03-28 11:52:21, Info                  MOUPG  CInstallUI::Initialize
+2024-03-28 11:52:21, Info                  MOUPG  SetupHost: Loading ID: [3d3ad714-f8d8-4c84-ad5f-10938c2f3339] from [C:\$Windows.~WS\Sources\SetupCore.dll]...
+2024-03-28 11:52:21, Info                  MOUPG  SetupHost: Loading complete.
+2024-03-28 11:52:21, Info                  MOUPG  SetupHost: Loading AutomationManager manager...
+2024-03-28 11:52:21, Info                  MOUPG  SetupHost: Loading ID: [edac948b-844e-4a51-9ba9-34520bd9ff9f] from [C:\$Windows.~WS\Sources\SetupCore.dll]...
+2024-03-28 11:52:21, Info                  MOUPG  SetupHost: Loading complete.
+2024-03-28 11:52:21, Info                  MOUPG  SetupHost: Initializing automation...
+2024-03-28 11:52:21, Error                 MOUPG  CInstallUI::GetDefaultLanguage(2027): Result = 0x80070002[gle=0x00000002]
+2024-03-28 11:52:22, Info                  MOUPG  SetupHost: Automation information not found. Releasing automation object.
+2024-03-28 11:52:22, Info                  MOUPG  SetupHost: Attempting to initialize OneSettings values
+2024-03-28 11:52:22, Info                  MOUPG  OneSettings: OS [windows]
+2024-03-28 11:52:22, Info                  MOUPG  OneSettings: OsVer [10.0.22621.3296.amd64fre.ni_release.220506-1250]
+2024-03-28 11:52:22, Info                  MOUPG  OneSettings: ScenarioId [7]
+2024-03-28 11:52:22, Info                  MOUPG  OneSettings: EditionId [Core]
+2024-03-28 11:52:22, Info                  MOUPG  OneSettings: InstallationType [Client]
+2024-03-28 11:52:22, Info                  MOUPG  OneSettings: Sku [101]
+2024-03-28 11:52:22, Info                  MOUPG  OneSettings: DeviceId [{E030D537-D8B0-43E6-9348-7879FC84B202}]
+2024-03-28 11:52:22, Info                  CONX   Target OS version: 10.0.19041.572
+2024-03-28 11:52:22, Info                  MOUPG  OneSettings: AppVer [10.0.19041.572]
+2024-03-28 11:52:22, Info                  MOUPG  OneSettings: Branch [vb_release_svc_prod1]
+2024-03-28 11:52:24, Info                  MOUPG  OneSettings: Initialization succeeded, but no values found.
+2024-03-28 11:52:24, Info                  MOUPG  SetupHost: OneSettings Initialized -> [No]
+2024-03-28 11:52:24, Info                  MOUPG  SetupHost: Loading ID: [c7b6e4de-b741-42d8-ac05-16738c9e0bc5] from [C:\$Windows.~WS\Sources\SetupMgr.dll]...
+2024-03-28 11:52:24, Info                  MOUPG  SetupHost: Loading complete.
+2024-03-28 11:52:24, Info                  MOUPG  SetupManager::Initialize: WorkingPath            = [C:\$Windows.~WS\Sources]
+2024-03-28 11:52:24, Info                  MOUPG  SetupManager::Initialize: MediaPath              = []
+2024-03-28 11:52:24, Info                  MOUPG  SetupManager::Initialize: InstallFilePath        = []
+2024-03-28 11:52:24, Info                  MOUPG  SetupManager::Initialize: ActionListFilePath     = []
+2024-03-28 11:52:24, Info                  MOUPG  SetupManager::Initialize: Mode                   = [0x8]
+2024-03-28 11:52:24, Info                  MOUPG  SetupManager::Initialize: Scenario               = [0x7]
+2024-03-28 11:52:24, Info                  MOUPG  SetupManager::Initialize: Flags                  = [0x800]
+2024-03-28 11:52:24, Info                  MOUPG  SetupManager: Working Directory:  [C:\$Windows.~WS\Sources]
+2024-03-28 11:52:24, Info                  MOUPG  SetupManager: Local Media Path:   [C:\$Windows.~WS]
+2024-03-28 11:52:24, Info                  MOUPG  SetupManager: Scratch Path:       [C:\$Windows.~WS\Sources\Panther]
+2024-03-28 11:52:24, Info                  MOUPG  SetupManager: ESD Download Path:  [C:\ESD\Download]
+2024-03-28 11:52:24, Info                  MOUPG  SetupManager: Media Path:         []
+2024-03-28 11:52:24, Info                  MOUPG  SetupManager: Drivers Path:       [C:\$Windows.~WS\Drivers]
+2024-03-28 11:52:24, Info                  MOUPG  SetupManager: LangPacks Path:     [C:\$Windows.~WS\LangPacks]
+2024-03-28 11:52:24, Info                  MOUPG  SetupCore::Initialize
+2024-03-28 11:52:24, Info                  MOUPG  SetupCore::RegisterSetupActions
+2024-03-28 11:52:24, Info                  MOUPG  SetupCore: Registered IMAGE_EXIT action
+2024-03-28 11:52:24, Info                  MOUPG  SetupCore: Registered DU_SETUP action
+2024-03-28 11:52:24, Info                  MOUPG  SetupCore: Registered DU_IMAGE action
+2024-03-28 11:52:24, Info                  MOUPG  SetupCore: Registered COMPAT_SYSREQ action
+2024-03-28 11:52:24, Info                  MOUPG  SetupCore: Registered COMPAT_GATED action
+2024-03-28 11:52:24, Info                  MOUPG  SetupCore: Registered COMPAT_DOWNLOADREQ action
+2024-03-28 11:52:24, Info                  MOUPG  SetupCore: Registered DISKSPACE_DOWNLOADREQ action
+2024-03-28 11:52:24, Info                  MOUPG  SetupCore: Registered DISKSPACE_INSTALLREQ action
+2024-03-28 11:52:24, Info                  MOUPG  SetupCore: Registered COMPAT_MIGCHOICE action
+2024-03-28 11:52:24, Info                  MOUPG  SetupCore: Registered PKEY_VALIDATE action
+2024-03-28 11:52:24, Info                  MOUPG  SetupCore: Registered EULA action
+2024-03-28 11:52:24, Info                  MOUPG  SetupCore: Registered COMPAT_INSTALLREQ action
+2024-03-28 11:52:24, Info                  MOUPG  SetupCore: Registered COMPAT_FINALIZEREQ action
+2024-03-28 11:52:24, Info                  MOUPG  SetupCore: Registered DISK_PARTITION action
+2024-03-28 11:52:24, Info                  MOUPG  SetupCore: Registered COMPAT_RECOVERYREQ action
+2024-03-28 11:52:24, Info                  MOUPG  SetupCore: Registered ACTIVATION action
+2024-03-28 11:52:24, Info                  MOUPG  SetupCore: Registered SUMMARY action
+2024-03-28 11:52:24, Info                  MOUPG  SetupCore: Registered IMAGE_DEPLOY action
+2024-03-28 11:52:24, Info                  MOUPG  SetupCore: Registered DATA_MIGRATE action
+2024-03-28 11:52:24, Info                  MOUPG  SetupCore: Registered PACKAGE_MIGRATE action
+2024-03-28 11:52:24, Info                  MOUPG  SetupCore: Registered DEBUGGER_OPTIONS action
+2024-03-28 11:52:24, Info                  MOUPG  SetupCore: Registered PRE_FINALIZE action
+2024-03-28 11:52:24, Info                  MOUPG  SetupCore: Registered IMAGE_FINALIZE action
+2024-03-28 11:52:24, Info                  MOUPG  SetupCore: Registered BOOT_FINALIZE action
+2024-03-28 11:52:24, Info                  MOUPG  SetupCore: Registered ADVERTISE action
+2024-03-28 11:52:24, Info                  MOUPG  SetupCore: Registered INSTALL_GET_WEBSETUP_USER_INPUT action
+2024-03-28 11:52:24, Info                  MOUPG  SetupCore: Registered MEDIA_CREATE_SUCCESS action
+2024-03-28 11:52:24, Info                  MOUPG  SetupCore: Registered PKEY_GET_EDITION action
+2024-03-28 11:52:24, Info                  MOUPG  SetupCore: Registered UPDATEMEDIA action
+2024-03-28 11:52:24, Info                  MOUPG  DlpMgrInit: WorkingPath = [C:\$Windows.~WS\Sources\Panther], Disposition = [Create], Flags = [0x1], Diagnostics = [Yes], StockRegistrar = [Yes], UserRegistrar = [Yes]
+2024-03-28 11:52:24, Info                  MOUPG  SetupManager: Region detected [US]
+2024-03-28 11:52:24, Info                  MOUPG  SetupManager: Reporting Data - DataId = [1], Value = [9]
+2024-03-28 11:52:24, Info                  MOUPG  SetupManager: Reporting Data - DataId = [2], Value = [7]
+2024-03-28 11:52:24, Info                  MOUPG  SetupManager: Reporting Data - DataId = [4], Value = [8]
+2024-03-28 11:52:24, Info                  MOUPG  SetupManager: Reporting Data - DataId = [17], Value = [133561147445653317]
+2024-03-28 11:52:24, Info                  MOUPG  SetupManager: Reporting Data - DataId = [9], Value = [0]
+2024-03-28 11:52:24, Info                  MOUPG  SetupManager: Reporting Data - DataId = [15], Value = [ae093b64-450b-42f8-b9de-7826ca4cd759]
+2024-03-28 11:52:24, Info                  MOUPG  SetupManager: Reporting Data - DataId = [13], Value = [0]
+2024-03-28 11:52:24, Info                  MOUPG  SetupManager: WebSetup data file not found
+2024-03-28 11:52:24, Info                  MOUPG  SetupManager: CompactOS detected in host OS.
+2024-03-28 11:52:24, Info                  MOUPG  SetupManager: CompactOS Enabled via CompactOS detection.
+2024-03-28 11:52:24, Info                  MOUPG  SetupManager: DiagnosticPrompt Disabled via detection.
+2024-03-28 11:52:24, Info                  MOUPG  SetupManager: PartitionResize Enabled by default.
+2024-03-28 11:52:24, Info                  MOUPG  SetupManager: Target Drive Letter set to [C] via default.
+2024-03-28 11:52:24, Info                  MOUPG  SetupManager: DU Channels Flag -> [0x3]
+2024-03-28 11:52:24, Info                  MOUPG  SetupManager: DU Categories Flag -> [0x3F]
+2024-03-28 11:52:24, Info                  MOUPG  SetupManager: DU Choice Cmdline -> [0x7F]
+2024-03-28 11:52:24, Warning               MOUPG  SetupHost: Unexpected scenario - defaulting postoobe/rollback commands!
+2024-03-28 11:52:24, Info                  MOUPG  SetupManager: Reporting Data - DataId = [16], Value = [0]
+2024-03-28 11:52:24, Info                  MOUPG  SetupHost::Execute
+2024-03-28 11:52:24, Info                  MOUPG  Setup StudyID was [not found]
+2024-03-28 11:52:24, Info                  MOUPG  A previous StudyID was [not restored]
+2024-03-28 11:52:24, Info                  MOUPG  SetupManager: Reporting Data - DataId = [22], Value = [0]
+2024-03-28 11:52:24, Info                  MOUPG  SetupManager::Execute called
+2024-03-28 11:52:24, Info                  MOUPG  SetupManager: Reporting Data - DataId = [3], Value = [0]
+2024-03-28 11:52:24, Info                  MOUPG  SetupManager: Reporting Data - DataId = [18], Value = [1]
+2024-03-28 11:52:24, Info                  MOUPG  SetupUI: Detecting connected standby capability...
+2024-03-28 11:52:24, Info                  MOUPG  SetupUI: Connected standby: [No]
+2024-03-28 11:52:24, Info                  MOUPG  SetupUI: Creating power request...
+2024-03-28 11:52:24, Info                  MOUPG  SetupUI: Calling PowerSetRequest with type [0x1]...
+2024-03-28 11:52:24, Info                  MOUPG  SetupUI: Power request granted!
+2024-03-28 11:52:24, Info                  MOUPG  SetupManager::DetermineSetupPhase: CurrentSetupPhase [SetupPhasePreDownload]
+2024-03-28 11:52:24, Info                  MOUPG  Setup phase change: [SetupPhaseUnknown] -> [SetupPhasePreDownload]
+2024-03-28 11:52:24, Info                  MOUPG  CreateDlpFile: Source = [https://go.microsoft.com/fwlink/?LinkId=841361], Target = [C:\$Windows.~WS\Sources\products.cab]
+2024-03-28 11:52:24, Info                  MOUPG  ConnectToSourceUrl: Port: [443], Secure -> [TRUE]
+2024-03-28 11:52:24, Info                  MOUPG  ConnectToSourceUrl: IE specifies auto-detect.
+2024-03-28 11:52:24, Info                  MOUPG  ConnectToSourceUrl: Trying auto-detect...
+2024-03-28 11:52:24, Warning               MOUPG  ConnectToSourceUrl: Unable to retrieve proxy info for URL -> [0x2f94].
+2024-03-28 11:52:30, Info                  MOUPG  CheckHttpRequestStatus: WinHttpQueryHeaders Status -> [200]
+2024-03-28 11:52:30, Info                  MOUPG  PrepareFile: HEAD -> Content-Length=[44045]
+2024-03-28 11:52:30, Info                  MOUPG  ConnectToSourceUrl: Port: [443], Secure -> [TRUE]
+2024-03-28 11:52:30, Info                  MOUPG  ConnectToSourceUrl: Requesting -> [Range: bytes=0-44044]
+2024-03-28 11:52:30, Info                  MOUPG  CheckHttpRequestStatus: WinHttpQueryHeaders Status -> [206]
+2024-03-28 11:52:30, Info                  MOUPG  SetupMgr: Expanding cab [C:\$Windows.~WS\Sources\products.cab] to [C:\$Windows.~WS\Sources].
+2024-03-28 11:52:30, Info                  MOUPG  SetupManager::OpenOrCreateTask: Creating new task [PreDownload].
+2024-03-28 11:52:30, Info                  MOUPG  CreateTask: Name = [PreDownload], WorkingPath = [C:\$Windows.~WS\Sources], TransportId = [00000000-0000-0000-0000-000000000000], Flags = [0x0]
+2024-03-28 11:52:30, Info                  MOUPG  Eula: Entering Prepare Method
+2024-03-28 11:52:30, Info                  MOUPG  Eula: Leaving Prepare Method
+2024-03-28 11:52:30, Info                  MOUPG  GetWebSetupUserInput: Entering Prepare Method
+2024-03-28 11:52:30, Info                  MOUPG  GetWebSetupUserInput: Leaving Prepare Method
+2024-03-28 11:52:30, Info                  MOUPG  DlpTask: Entering Execute Method
+2024-03-28 11:52:30, Info                  MOUPG  DlpTask: Transport not set. Skipping download phase.
+2024-03-28 11:52:30, Info                  MOUPG  DlpTask: Executing Actions...
+2024-03-28 11:52:30, Info                  MOUPG  Action execution thread timeout period: [1000 ms]
+2024-03-28 11:52:30, Info                  MOUPG  Eula: Initializing Eula File Path:        []
+2024-03-28 11:52:30, Info                  MOUPG  Eula: Initializing AcceptEulaDefault:     [FALSE]
+2024-03-28 11:52:30, Info                  MOUPG  ProgressHandlerAction: Sending initial progress message for action [0].
+2024-03-28 11:52:30, Warning               MOUPG  CSetupDiagnostics::ReportData - Not reporting WINDLP data point [0x2002]
+2024-03-28 11:52:30, Info                  MOUPG  CInstallUI::OnActionChanged
+2024-03-28 11:52:30, Info                  MOUPG  CInstallUI::OnActionChanged: Posted MSG_INSTALLUI_UPDATE_PROGRESS
+2024-03-28 11:52:30, Info                  MOUPG  Eula: Entering Execute Method
+2024-03-28 11:52:30, Info                  MOUPG  Eula: Using Online Store version = [1.4.1].
+2024-03-28 11:52:31, Info                  MOUPG  Action progress: [0%]
+2024-03-28 11:52:31, Info                  MOUPG  Task progress: [0%]
+2024-03-28 11:52:31, Info                  MOUPG  Overall progress: [0%]
+2024-03-28 11:52:31, Info                  MOUPG  Mapped Global progress: [0%]
+2024-03-28 11:52:31, Info                  MOUPG  Setup Phase: [2]
+2024-03-28 11:52:31, Info                  MOUPG  Setup SubPhase: [24]
+2024-03-28 11:53:35, Info                  MOUPG  Eula: Getting EULA for language: [en-us]
+2024-03-28 11:53:35, Info                  MOUPG  Eula: Eula File Url From Online Store: [https://download.microsoft.com/download/C/0/3/C036B882-9F99-4BC9-A4B5-69370C4E17E9/EULA_MCTool_EN-US_6.27.16.rtf]
+2024-03-28 11:53:35, Info                  MOUPG  CreateDlpFile: Source = [https://download.microsoft.com/download/C/0/3/C036B882-9F99-4BC9-A4B5-69370C4E17E9/EULA_MCTool_EN-US_6.27.16.rtf], Target = [C:\$Windows.~WS\Sources\Panther\Eula.rtf]
+2024-03-28 11:53:35, Info                  MOUPG  ConnectToSourceUrl: Port: [443], Secure -> [TRUE]
+2024-03-28 11:53:35, Info                  MOUPG  ConnectToSourceUrl: IE specifies auto-detect.
+2024-03-28 11:53:35, Info                  MOUPG  ConnectToSourceUrl: Trying auto-detect...
+2024-03-28 11:53:35, Warning               MOUPG  ConnectToSourceUrl: Unable to retrieve proxy info for URL -> [0x2f94].
+2024-03-28 11:53:38, Info                  MOUPG  CheckHttpRequestStatus: WinHttpQueryHeaders Status -> [200]
+2024-03-28 11:53:38, Info                  MOUPG  PrepareFile: HEAD -> Content-Length=[204389]
+2024-03-28 11:53:38, Info                  MOUPG  ConnectToSourceUrl: Port: [443], Secure -> [TRUE]
+2024-03-28 11:53:38, Info                  MOUPG  ConnectToSourceUrl: Requesting -> [Range: bytes=0-204388]
+2024-03-28 11:53:38, Info                  MOUPG  CheckHttpRequestStatus: WinHttpQueryHeaders Status -> [206]
+2024-03-28 11:53:39, Info                  MOUPG  Eula: Eula File Path: [C:\$Windows.~WS\Sources\Panther\Eula.rtf]
+2024-03-28 11:53:39, Info                  MOUPG  Eula: Entering Response Execute Method
+2024-03-28 11:53:39, Info                  MOUPG  CInstallUI::ShowPage: Posted MSG_INSTALLUI_SWITCH_TO_RESPONSE_PAGE
+2024-03-28 11:53:39, Info                  MOUPG  CInstallUI::CInstallUIMessageWindow::SwitchToResponsePage
+2024-03-28 11:53:39, Info                  MOUPG  CInstallUI::SwitchToResponsePage
+2024-03-28 11:53:50, Info                  MOUPG  CInstallUI::CInstallUIMessageWindow::SwitchToProgressPage
+2024-03-28 11:53:50, Info                  MOUPG  CInstallUI::ShowProgress: Posted MSG_INSTALLUI_SWITCH_TO_PROGRESS_PAGE
+2024-03-28 11:53:50, Info                  MOUPG  CInstallUI::SwitchToProgressPage
+2024-03-28 11:53:50, Info                  MOUPG  CSetupResponseTemplate<class IDlpResponse>::ExecuteRoutine: Next button clicked.
+2024-03-28 11:53:50, Info                  MOUPG  Eula: Leaving Response Execute Method
+2024-03-28 11:53:50, Info                  MOUPG  DeferEula from Response [FALSE]
+2024-03-28 11:53:50, Info                  MOUPG  AcceptEula from Response [TRUE]
+2024-03-28 11:53:50, Info                  MOUPG  Eula: Leaving Execute Method
+2024-03-28 11:53:50, Warning               MOUPG  CSetupDiagnostics::ReportData - Not reporting WINDLP data point [0x2004]
+2024-03-28 11:53:50, Warning               MOUPG  CSetupDiagnostics::ReportData - Not reporting WINDLP data point [0x2003]
+2024-03-28 11:53:50, Info                  MOUPG  ProgressHandlerAction: Sending final progress message for action [0].
+2024-03-28 11:53:50, Info                  MOUPG  ProgressHandlerAction FinalUpdate: 0x0, 0x64 / 0x64, 0x0
+2024-03-28 11:53:50, Info                  MOUPG  Action: 100%, Delta: 79.82s, 100 ticks, Avg: 1.253 ticks/s
+2024-03-28 11:53:50, Info                  MOUPG  Action progress: [100%]
+2024-03-28 11:53:50, Info                  MOUPG  Task progress: [50%]
+2024-03-28 11:53:50, Info                  MOUPG  Overall progress: [50%]
+2024-03-28 11:53:50, Info                  MOUPG  Mapped Global progress: [50%]
+2024-03-28 11:53:50, Info                  MOUPG  GetWebSetupUserInput: Including retail only editions = [NO].
+2024-03-28 11:53:50, Info                  MOUPG  ProgressHandlerAction: Sending initial progress message for action [1].
+2024-03-28 11:53:50, Warning               MOUPG  CSetupDiagnostics::ReportData - Not reporting WINDLP data point [0x2002]
+2024-03-28 11:53:50, Info                  MOUPG  CInstallUI::OnActionChanged
+2024-03-28 11:53:50, Info                  MOUPG  CInstallUI::OnActionChanged: Posted MSG_INSTALLUI_UPDATE_PROGRESS
+2024-03-28 11:53:50, Info                  MOUPG  GetWebSetupUserInput: Entering Execute Method
+2024-03-28 11:53:50, Info                  MOUPG  GetWebSetupUserInput: Entering execute.
+2024-03-28 11:53:51, Info                  MOUPG  Action progress: [0%]
+2024-03-28 11:54:40, Info                  MOUPG  CInstallUI::ShowMessageBox: Showing MessageBox
+2024-03-28 11:54:45, Info                  MOUPG  CInstallUI::ConfirmCanceled: User cancel confirmed
+2024-03-28 11:54:45, Info                  MOUPG  CInstallUI::ShowExitingSetup: Posted MSG_INSTALLUI_SWITCH_TO_PROGRESS_PAGE
+2024-03-28 11:54:45, Info                  MOUPG  CInstallUI::OnProgressChanged: Cancel is requested. Returning ERROR_REQUEST_ABORTED
+2024-03-28 11:54:45, Error                 MOUPG  CInstallUI::OnProgressChanged(575): Result = 0x800704D3
+2024-03-28 11:54:45, Error                 MOUPG  CSetupUIManager::OnProgressChanged(378): Result = 0x800704D3
+2024-03-28 11:54:45, Error                 MOUPG  CSetupHost::OnProgressChanged(2306): Result = 0x800704D3
+2024-03-28 11:54:45, Error                 MOUPG  CSetupManager::DlpManagerCallback(2064): Result = 0x800704D3
+2024-03-28 11:54:45, Info                  MOUPG  Cancel of current task requested...
+2024-03-28 11:54:45, Info                  MOUPG  Attempting to cancel current task...
+2024-03-28 11:54:45, Info                  MOUPG  Task cancel request returned: [0x0]
+2024-03-28 11:54:45, Error                 MOUPG  SendCallbackMessage: [0x7] -> user callback returned 0x800704D3
+2024-03-28 11:54:45, Error                 MOUPG  CDlpTask::Cancel(984): Result = 0xC1800108
+2024-03-28 11:54:45, Info                  MOUPG  SendCallbackMessage: [0x7] -> Cancel request returned 0xC1800108
+2024-03-28 11:54:45, Info                  MOUPG  CInstallUI::CInstallUIMessageWindow::SwitchToProgressPage
+2024-03-28 11:54:45, Info                  MOUPG  CInstallUI::SwitchToProgressPage
+2024-03-28 11:55:30, Info                  MOUPG  InstallNowOrLater: Entering Response Execute Method
+2024-03-28 11:55:30, Info                  MOUPG  CInstallUI::ShowPage: Cancel is requested. Returning ERROR_REQUEST_ABORTED
+2024-03-28 11:55:30, Error                 MOUPG  CInstallUI::ShowPage(1039): Result = 0x800704D3
+2024-03-28 11:55:30, Error                 MOUPG  CSetupResponseTemplate<class IDlpResponse>::ExecuteRoutine(121): Result = 0x800704D3
+2024-03-28 11:55:30, Error                 MOUPG  CDlpResponseImpl<class CDlpErrorImpl<class CDlpObjectInternalImpl<class CUnknownImpl<class IDlpResponse> > > >::Execute(1923): Result = 0x800704D3
+2024-03-28 11:55:30, Info                  MOUPG  InstallNowOrLater: Leaving Response Execute Method
+2024-03-28 11:55:30, Error                 MOUPG  CDlpActionImpl<class CDlpErrorImpl<class CDlpObjectInternalImpl<class CUnknownImpl<class IMoSetupDlpAction> > > >::ExecuteResponse(1365): Result = 0x800704D3
+2024-03-28 11:55:30, Error                 MOUPG  CDlpActionGetWebSetupUserInput::GetInstallChoiceFromResponse(756): Result = 0x800704D3
+2024-03-28 11:55:30, Error                 MOUPG  CDlpActionGetWebSetupUserInput::ExecuteRoutine(372): Result = 0x800704D3
+2024-03-28 11:55:30, Error                 MOUPG  CDlpActionImpl<class CDlpErrorImpl<class CDlpObjectInternalImpl<class CUnknownImpl<class IMoSetupDlpAction> > > >::Execute(493): Result = 0x800704D3
+2024-03-28 11:55:30, Info                  MOUPG  GetWebSetupUserInput: Leaving Execute Method
+2024-03-28 11:55:30, Error                 MOUPG  CDlpTask::ExecuteAction(3300): Result = 0x800704D3
+2024-03-28 11:55:30, Warning               MOUPG  CSetupDiagnostics::ReportData - Not reporting WINDLP data point [0x2004]
+2024-03-28 11:55:30, Warning               MOUPG  CSetupDiagnostics::ReportData - Not reporting WINDLP data point [0x2003]
+2024-03-28 11:55:30, Warning               MOUPG  CSetupDiagnostics::ReportData - Not reporting WINDLP data point [0x2001]
+2024-03-28 11:55:30, Error                 MOUPG  CDlpTask::ExecuteActions(3454): Result = 0x800704D3
+2024-03-28 11:55:30, Info                  MOUPG  Signalling actions thread to shut down.
+2024-03-28 11:55:30, Info                  MOUPG  Waiting for actions thread to exit.
+2024-03-28 11:55:30, Info                  MOUPG  Actions thread has exited.
+2024-03-28 11:55:30, Warning               MOUPG  CSetupDiagnostics::ReportData - Not reporting WINDLP data point [0x2004]
+2024-03-28 11:55:30, Warning               MOUPG  CSetupDiagnostics::ReportData - Not reporting WINDLP data point [0x2000]
+2024-03-28 11:55:30, Error                 MOUPG  CDlpTask::Execute(1631): Result = 0x800704D3
+2024-03-28 11:55:30, Warning               MOUPG  CSetupDiagnostics::ReportData - Not reporting WINDLP data point [0x3000]
+2024-03-28 11:55:30, Info                  MOUPG  DlpTask: Leaving Execute Method
+2024-03-28 11:55:30, Error                 MOUPG  CSetupManager::ExecuteTask(2630): Result = 0x800704D3
+2024-03-28 11:55:30, Error                 MOUPG  CSetupManager::ExecuteTask(2593): Result = 0x800704D3
+2024-03-28 11:55:30, Error                 MOUPG  CSetupManager::ExecuteDownloadMode(8753): Result = 0x800704D3
+2024-03-28 11:55:30, Error                 MOUPG  CSetupManager::ExecuteDownlevelMode(406): Result = 0x800704D3
+2024-03-28 11:55:30, Info                  MOUPG  Setup phase change: [SetupPhasePreDownload] -> [SetupPhaseError]
+2024-03-28 11:55:30, Info                  MOUPG  SetupManager::OpenOrCreateTask: Creating new task [Exit].
+2024-03-28 11:55:30, Info                  MOUPG  CreateTask: Name = [Exit], WorkingPath = [C:\$Windows.~WS\Sources], TransportId = [00000000-0000-0000-0000-000000000000], Flags = [0x0]
+2024-03-28 11:55:30, Info                  MOUPG  Finalize: Entering Prepare Method
+2024-03-28 11:55:30, Info                  MOUPG  Finalize: Leaving Prepare Method
+2024-03-28 11:55:30, Info                  MOUPG  DlpTask: Entering Execute Method
+2024-03-28 11:55:30, Info                  MOUPG  DlpTask: Transport not set. Skipping download phase.
+2024-03-28 11:55:30, Info                  MOUPG  DlpTask: Executing Actions...
+2024-03-28 11:55:30, Info                  MOUPG  Action execution thread timeout period: [1000 ms]
+2024-03-28 11:55:30, Error                 MOUPG  CSetupManager::GetDUSetupResults(6511): Result = 0x80070490
+2024-03-28 11:55:30, Info                  MOUPG  InitializeRoutine: MOSETUP_ACTION_IMAGE_EXIT
+2024-03-28 11:55:30, Info                  MOUPG  ImageExit: Initializing SetupResult: [0x800704c7]
+2024-03-28 11:55:30, Info                  MOUPG  ImageExit: Initializing Extended:    [0x20018]
+2024-03-28 11:55:30, Info                  MOUPG  ImageExit: Initializing Scenario:    [7]
+2024-03-28 11:55:30, Info                  MOUPG  ImageExit: Initializing Mode:        [8]
+2024-03-28 11:55:30, Info                  MOUPG  ImageExit: Initializing Target:      [C]
+2024-03-28 11:55:30, Info                  MOUPG  ImageExit: Initializing SQM:         [TRUE]
+2024-03-28 11:55:30, Info                  MOUPG  ImageExit: Initializing PostReboot:  [FALSE]
+2024-03-28 11:55:30, Info                  MOUPG  ProgressHandlerAction: Sending initial progress message for action [0].
+2024-03-28 11:55:30, Warning               MOUPG  CSetupDiagnostics::ReportData - Not reporting WINDLP data point [0x2002]
+2024-03-28 11:55:30, Info                  MOUPG  Finalize: Entering Execute Method
+2024-03-28 11:55:30, Info                  MOUPG  MoSetupPlatform: Identifier -> [FinalizeExit]
+2024-03-28 11:55:30, Info                  MOUPG  MoSetupPlatform: Loading Setup Platform...
+2024-03-28 11:55:30, Info                  MOUPG  MoSetupPlatform: Determine if the expected version of Setup Platform has been loaded...
+2024-03-28 11:55:30, Info                  MOUPG  MoSetupPlatform: Platform and Setup binaries match!
+2024-03-28 11:55:30, Info                  MOUPG  MoSetupPlatform: Attempting resurrect of Setup Platform object...
+2024-03-28 11:55:30, Info                  MOUPG  MoSetupPlatform: Creating Setup Platform object...
+2024-03-28 11:55:31, Info                  MOUPG  MoSetupPlatform: Setup Platform object created!
+2024-03-28 11:55:31, Info                  MOUPG  MoSetupPlatform: Enable diagnosis mode
+2024-03-28 11:55:31, Info                  MOUPG  MoSetupPlatform: Setting Correlation vector
+2024-03-28 11:55:31, Info                  MOUPG  MoSetupPlatform: Persisting telemetry data
+2024-03-28 11:55:31, Info                  MOUPG  MoSetupPlatform: Restartable: [no]
+2024-03-28 11:55:31, Info                  MOUPG  MoSetupPlatform: Not persisting telemetry data
+2024-03-28 11:55:31, Info                  MOUPG  MoSetupPlatform: Resurrecting NewSystem object from [C:\$Windows.~BT\Sources]
+2024-03-28 11:55:31, Warning               MOUPG  ImageExit: Unable to resurrect NewSystem object. hr=0x80070002
+2024-03-28 11:55:31, Info                  MOUPG  MoSetupPlatform: Upload telemetry data
+2024-03-28 11:55:31, Info                  MOUPG  MoSetupPlatform: Setting Watson bucketing parameter -> [0]=[7]
+2024-03-28 11:55:31, Info                  MOUPG  MoSetupPlatform: Setting Watson bucketing parameter -> [1]=[8]
+2024-03-28 11:55:31, Info                  MOUPG  MoSetupPlatform: Setting Watson bucketing parameter -> [4]=[0x800704C7]
+2024-03-28 11:55:31, Info                  MOUPG  MoSetupPlatform: Setting Watson bucketing parameter -> [5]=[0x20018]
+2024-03-28 11:55:31, Info                  MOUPG  MoSetupPlatform: Setting Watson bucketing parameter -> [3]=[2]
+2024-03-28 11:55:31, Info                  MOUPG  MoSetupPlatform: Setting Watson bucketing parameter -> [6]=[22631]
+2024-03-28 11:55:31, Info                  MOUPG  MoSetupPlatform: Setting Watson bucketing parameter -> [7]=[ni_release]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [STRING] -> [SetupBuildString]=[10.0.19041.572.x86fre.vb_release_svc_prod1.201007-1724] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [DWORD] -> [SetupCompilationType]=[0x0] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [DWORD] -> [SetupVersionMajor]=[0xA] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [DWORD] -> [SetupVersionMinor]=[0x0] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [DWORD] -> [SetupVersionBuildNumber]=[0x4A61] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [DWORD] -> [SetupVersionCSDBuildNumber]=[0x23C] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [DWORD] -> [SetupBuildDate]=[0x3112F] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [STRING] -> [SetupBranchName]=[vb_release_svc_prod1] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [DWORD] -> [SetupBranchHash]=[0x4C0851F0] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [DWORD] -> [SystemPhysicalMemory]=[0x3D0C0C] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [DWORD] -> [SystemProcessorCount]=[0x4] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [DWORD] -> [SystemCpuModel]=[0x0] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [DWORD] -> [SystemProcessorArchitecture]=[0x0] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [STRING] -> [SystemManufacturer]=[HP] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [STRING] -> [SystemProductName]=[HP Laptop 15-dw1xxx] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [STRING] -> [SystemCpuDescription]=[Intel(R) Celeron(R) N4120 CPU @ 1.10GHz] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [DWORD] -> [NativeProcessorArchitecture]=[0x9] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [DWORD] -> [Setup360Scenario]=[0x7] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [DWORD] -> [Setup360Mode]=[0x8] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [DWORD] -> [IsWebSetupCreatedMedia]=[0x0] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [DWORD] -> [LegacySetupInterrupt]=[0x0] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [DWORD] -> [ReflectDrivers]=[0x0] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [DWORD] -> [PostRollbackContext]=[0x0] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [DWORD] -> [SetupUpgradeAttempts]=[0x0] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [DWORD] -> [SetupPriority]=[0x1] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [DWORD] -> [EulaTime]=[0x4F] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [DWORD] -> [HostOsMajorVersion]=[0xA] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [DWORD] -> [HostOsMinorVersion]=[0x0] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [DWORD] -> [HostOsBuildNumber]=[0x5867] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [DWORD] -> [HostOsArchitecture]=[0x2] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [DWORD] -> [HostOsStageType]=[0x1] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [DWORD] -> [HostOsEditionType]=[0x2] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [DWORD] -> [SetupFailureCount]=[0x0] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [DWORD] -> [HostOsLanguage]=[0x409] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [DWORD] -> [HostOsSkuId]=[0x2BD] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [DWORD] -> [HostOsSuiteMask]=[0x300] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [DWORD] -> [HostOsProductType]=[0x1] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [DWORD] -> [HostOsCompact]=[0x1] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [DWORD] -> [HostOsWimBoot]=[0x0] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [DWORD] -> [SourceOsMajorVersion]=[0xA] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [DWORD] -> [SourceOsMinorVersion]=[0x0] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [DWORD] -> [SourceOsBuildNumber]=[0x585D] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [DWORD] -> [SourceOsBuildQFE]=[0xCE0] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [QUADWORD] -> [SetupStartTime]=[0x1da8127ed4aaf45] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [STRING] -> [WuId]=[ae093b64-450b-42f8-b9de-7826ca4cd759] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [STRING] -> [WebSetupOnlineStoreVersion]=[1.4.1] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [STRING] -> [HostOsEditionId]=[Core] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [STRING] -> [HostOsInstallationType]=[Client] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [STRING] -> [HostOsSkuName]=[Windows 11 Home] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [STRING] -> [HostOsBranchName]=[ni_release] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [STRING] -> [SourceOsEditionId]=[Core] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [STRING] -> [SourceOsLanguage]=[en-US] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Warning               MOUPG  Finalize: Compat instance not found.
+2024-03-28 11:55:31, Info                  MOUPG  MoSetupPlatform: Upload telemetry data
+2024-03-28 11:55:31, Info                  MOUPG  Finalize: Leaving install error [0x800704C7] as-is for telemetry.
+2024-03-28 11:55:31, Info                  MOUPG  Finalize: Reporting result value: [0x800704C7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [DWORD] -> [Setup360MappedResult]=[0x800704C7] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [DWORD] -> [Setup360Result]=[0x800704C7] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [DWORD] -> [Setup360Extended]=[0x20018] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [CUSTOM] -> [WindowsUpdateExit] -> [Web360][04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [CUSTOM] -> [UnexpectedEvent] -> [Web360][04868bad-3fb6-4857-aa5c-a686e56d9579][][ae093b64-450b-42f8-b9de-7826ca4cd759][][Cancelled][Windows 11 Home][22631][7][8][0x800704c7][0x20018][19041]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: TraceOneSettingsEvent -> [0x0][0][os=windows;scenarioId=7;platformEdition=Core;platformInstallationType=Client;sku=101;AppVer=10.0.19041.572;appBuildLab=vb_release_svc_prod1][][Web360][04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  Finalize: Retrieving downlevel ticks from registry...
+2024-03-28 11:55:31, Info                  MOUPG  Finalize: Converting [37] downlevel ticks to seconds...
+2024-03-28 11:55:31, Info                  MOUPG  Finalize: Reporting total downlevel time: [185 seconds]
+2024-03-28 11:55:31, Info                  MOUPG  CSetupDiagnostics: Tracing Data [DWORD] -> [Setup360DownlevelTime]=[0xB9] [04868bad-3fb6-4857-aa5c-a686e56d9579][][][0x7]
+2024-03-28 11:55:31, Info                  MOUPG  MoSetupPlatform: Release Identifier -> [FinalizeExit]
+2024-03-28 11:55:31, Info                  MOUPG  MoSetupPlatform: Releasing Setup Platform object...
+2024-03-28 11:55:47, Info                  MOUPG  MoSetupPlatform: Setup Platform object released!
+2024-03-28 11:55:47, Info                  MOUPG  Finalize: Leaving Execute Method
+2024-03-28 11:55:47, Warning               MOUPG  CSetupDiagnostics::ReportData - Not reporting WINDLP data point [0x2004]
+2024-03-28 11:55:47, Warning               MOUPG  CSetupDiagnostics::ReportData - Not reporting WINDLP data point [0x2003]
+2024-03-28 11:55:47, Warning               MOUPG  CSetupDiagnostics::ReportData - Not reporting WINDLP data point [0x2001]
+2024-03-28 11:55:47, Info                  MOUPG  ProgressHandlerAction: Sending final progress message for action [0].
+2024-03-28 11:55:47, Info                  MOUPG  ProgressHandlerAction FinalUpdate: 0x0, 0x0 / 0x0, 0x0
+2024-03-28 11:55:47, Info                  MOUPG  ProgressHandlerAction: Sending final progress message for action [0].
+2024-03-28 11:55:47, Info                  MOUPG  ProgressHandlerAction FinalUpdate: 0x0, 0x0 / 0x0, 0x0
+2024-03-28 11:55:47, Info                  MOUPG  Signalling actions thread to shut down.
+2024-03-28 11:55:47, Info                  MOUPG  Waiting for actions thread to exit.
+2024-03-28 11:55:47, Info                  MOUPG  Actions thread has exited.
+2024-03-28 11:55:47, Warning               MOUPG  CSetupDiagnostics::ReportData - Not reporting WINDLP data point [0x2004]
+2024-03-28 11:55:47, Warning               MOUPG  CSetupDiagnostics::ReportData - Not reporting WINDLP data point [0x2000]
+2024-03-28 11:55:47, Warning               MOUPG  CSetupDiagnostics::ReportData - Not reporting WINDLP data point [0x3000]
+2024-03-28 11:55:47, Info                  MOUPG  DlpTask: Leaving Execute Method
+2024-03-28 11:55:47, Info                  MOUPG  SetupNotify::Remapping internal cancellation request [0x800704D3] -> [0x800704C7]
+2024-03-28 11:55:47, Info                  MOUPG  SetupNotify::Leaving well-known error [0x800704C7] as-is for WU/Store
+2024-03-28 11:55:47, Info                  MOUPG  Requesting full cleanup.
+2024-03-28 11:55:47, Info                  MOUPG  SetupHost: Reporting error event -> [0x800704D3, 0x800704C7]
+2024-03-28 11:55:47, Warning               MOUPG  SetupNotify::ReportEvent - Report ID or Event Reporter not available.
+2024-03-28 11:55:47, Info                  MOUPG  SetupManager: FailureCount = [1]
+2024-03-28 11:55:47, Info                  MOUPG  SetupManager: Requesting cleanup level [0x1] from parent process.
+2024-03-28 11:55:47, Info                  MOUPG  SetupManager: Resetting WinDlp state for full cleanup...
+2024-03-28 11:55:48, Error                 MOUPG  CDlpTask::Cancel(985): Result = 0xC1800109
+2024-03-28 11:55:48, Error                 MOUPG  CDlpTask::Cancel(982): Result = 0xC1800104
+2024-03-28 11:55:48, Error                 MOUPG  CSetupManager::Execute(295): Result = 0x800704C7
+2024-03-28 11:55:48, Error                 MOUPG  CSetupHost::Execute(433): Result = 0x800704C7
+2024-03-28 11:55:48, Error                 MOUPG  SetupHost: Diagnostic tool does not exist [C:\$Windows.~WS\Sources\SetupDiag.exe][gle=0x00000002]
+2024-03-28 11:55:48, Error                 MOUPG  CSetupHost::ExecuteDiagnosticAnalysis(1541): Result = 0x80070003[gle=0x00000002]
+2024-03-28 11:55:48, Info                  MOUPG  CSetupUIManager: Showing exiting Setup
+2024-03-28 11:55:48, Info                  MOUPG  CInstallUI::Quit: Posted MSG_INSTALLUI_FORCE_QUIT
+2024-03-28 11:55:48, Info                  MOUPG  CInstallUI::CInstallUIMessageWindow::ForceQuit
+2024-03-28 11:55:48, Info                  MOUPG  Force ending Message pump
+2024-03-28 11:55:48, Info                  MOUPG  CInstallUI::ExitInstance
+2024-03-28 11:55:48, Info                  MOUPG  SetupUI: Calling PowerClearRequest with type [0x1]...
+2024-03-28 11:55:48, Info                  MOUPG  SetupUI: Power request cleared!
+2024-03-28 11:55:48, Info                  MOUPG  **************** SetupHost Logging End ****************

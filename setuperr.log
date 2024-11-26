@@ -1,0 +1,28 @@
+2024-03-28 11:52:21, Error                 MOUPG  CInstallUI::GetDefaultLanguage(2027): Result = 0x80070002[gle=0x00000002]
+2024-03-28 11:54:45, Error                 MOUPG  CInstallUI::OnProgressChanged(575): Result = 0x800704D3
+2024-03-28 11:54:45, Error                 MOUPG  CSetupUIManager::OnProgressChanged(378): Result = 0x800704D3
+2024-03-28 11:54:45, Error                 MOUPG  CSetupHost::OnProgressChanged(2306): Result = 0x800704D3
+2024-03-28 11:54:45, Error                 MOUPG  CSetupManager::DlpManagerCallback(2064): Result = 0x800704D3
+2024-03-28 11:54:45, Error                 MOUPG  SendCallbackMessage: [0x7] -> user callback returned 0x800704D3
+2024-03-28 11:54:45, Error                 MOUPG  CDlpTask::Cancel(984): Result = 0xC1800108
+2024-03-28 11:55:30, Error                 MOUPG  CInstallUI::ShowPage(1039): Result = 0x800704D3
+2024-03-28 11:55:30, Error                 MOUPG  CSetupResponseTemplate<class IDlpResponse>::ExecuteRoutine(121): Result = 0x800704D3
+2024-03-28 11:55:30, Error                 MOUPG  CDlpResponseImpl<class CDlpErrorImpl<class CDlpObjectInternalImpl<class CUnknownImpl<class IDlpResponse> > > >::Execute(1923): Result = 0x800704D3
+2024-03-28 11:55:30, Error                 MOUPG  CDlpActionImpl<class CDlpErrorImpl<class CDlpObjectInternalImpl<class CUnknownImpl<class IMoSetupDlpAction> > > >::ExecuteResponse(1365): Result = 0x800704D3
+2024-03-28 11:55:30, Error                 MOUPG  CDlpActionGetWebSetupUserInput::GetInstallChoiceFromResponse(756): Result = 0x800704D3
+2024-03-28 11:55:30, Error                 MOUPG  CDlpActionGetWebSetupUserInput::ExecuteRoutine(372): Result = 0x800704D3
+2024-03-28 11:55:30, Error                 MOUPG  CDlpActionImpl<class CDlpErrorImpl<class CDlpObjectInternalImpl<class CUnknownImpl<class IMoSetupDlpAction> > > >::Execute(493): Result = 0x800704D3
+2024-03-28 11:55:30, Error                 MOUPG  CDlpTask::ExecuteAction(3300): Result = 0x800704D3
+2024-03-28 11:55:30, Error                 MOUPG  CDlpTask::ExecuteActions(3454): Result = 0x800704D3
+2024-03-28 11:55:30, Error                 MOUPG  CDlpTask::Execute(1631): Result = 0x800704D3
+2024-03-28 11:55:30, Error                 MOUPG  CSetupManager::ExecuteTask(2630): Result = 0x800704D3
+2024-03-28 11:55:30, Error                 MOUPG  CSetupManager::ExecuteTask(2593): Result = 0x800704D3
+2024-03-28 11:55:30, Error                 MOUPG  CSetupManager::ExecuteDownloadMode(8753): Result = 0x800704D3
+2024-03-28 11:55:30, Error                 MOUPG  CSetupManager::ExecuteDownlevelMode(406): Result = 0x800704D3
+2024-03-28 11:55:30, Error                 MOUPG  CSetupManager::GetDUSetupResults(6511): Result = 0x80070490
+2024-03-28 11:55:48, Error                 MOUPG  CDlpTask::Cancel(985): Result = 0xC1800109
+2024-03-28 11:55:48, Error                 MOUPG  CDlpTask::Cancel(982): Result = 0xC1800104
+2024-03-28 11:55:48, Error                 MOUPG  CSetupManager::Execute(295): Result = 0x800704C7
+2024-03-28 11:55:48, Error                 MOUPG  CSetupHost::Execute(433): Result = 0x800704C7
+2024-03-28 11:55:48, Error                 MOUPG  SetupHost: Diagnostic tool does not exist [C:\$Windows.~WS\Sources\SetupDiag.exe][gle=0x00000002]
+2024-03-28 11:55:48, Error                 MOUPG  CSetupHost::ExecuteDiagnosticAnalysis(1541): Result = 0x80070003[gle=0x00000002]
