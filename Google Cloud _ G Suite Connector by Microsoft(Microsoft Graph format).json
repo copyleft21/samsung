@@ -1,0 +1,129 @@
+{
+	"id": "6ecd83d1-959c-42e8-9f96-8ad902619372",
+	"deletedDateTime": null,
+	"appId": "8de9a4a7-9f91-4149-bbae-bf52468eceaf",
+	"applicationTemplateId": "01303a13-8322-4e06-bee5-80d612907131",
+	"disabledByMicrosoftStatus": null,
+	"createdDateTime": "2024-11-28T01:18:06Z",
+	"displayName": "Google Cloud / G Suite Connector by Microsoft",
+	"description": null,
+	"groupMembershipClaims": null,
+	"identifierUris": [],
+	"isDeviceOnlyAuthSupported": null,
+	"isFallbackPublicClient": false,
+	"nativeAuthenticationApisEnabled": null,
+	"notes": null,
+	"publisherDomain": "stocks588.onmicrosoft.com",
+	"serviceManagementReference": null,
+	"signInAudience": "AzureADMyOrg",
+	"tags": [],
+	"tokenEncryptionKeyId": null,
+	"samlMetadataUrl": null,
+	"defaultRedirectUri": null,
+	"certification": null,
+	"optionalClaims": null,
+	"servicePrincipalLockConfiguration": null,
+	"requestSignatureVerification": null,
+	"addIns": [],
+	"api": {
+		"acceptMappedClaims": null,
+		"knownClientApplications": [],
+		"requestedAccessTokenVersion": null,
+		"oauth2PermissionScopes": [
+			{
+				"adminConsentDescription": "Allow the application to access Google Cloud / G Suite Connector by Microsoft on behalf of the signed-in user.",
+				"adminConsentDisplayName": "Access Google Cloud / G Suite Connector by Microsoft",
+				"id": "2d3e3d35-7ffb-44dd-beb8-05f5d33b2a1a",
+				"isEnabled": true,
+				"type": "User",
+				"userConsentDescription": "Allow the application to access Google Cloud / G Suite Connector by Microsoft on your behalf.",
+				"userConsentDisplayName": "Access Google Cloud / G Suite Connector by Microsoft",
+				"value": "user_impersonation"
+			}
+		],
+		"preAuthorizedApplications": []
+	},
+	"appRoles": [
+		{
+			"allowedMemberTypes": [
+				"User",
+				"Application"
+			],
+			"description": "Options",
+			"displayName": "Writers",
+			"id": "8626ef80-513f-4344-b239-a017949289f1",
+			"isEnabled": true,
+			"origin": "Application",
+			"value": "Write"
+		},
+		{
+			"allowedMemberTypes": [
+				"User"
+			],
+			"description": "msiam_access",
+			"displayName": "msiam_access",
+			"id": "8eea5c46-96fe-4398-b9c2-02ac04d931ca",
+			"isEnabled": true,
+			"origin": "Application",
+			"value": null
+		},
+		{
+			"allowedMemberTypes": [
+				"User"
+			],
+			"description": "Default Organization",
+			"displayName": "Default Organization",
+			"id": "9e79c739-f165-49e8-8745-fe08f1634b3b",
+			"isEnabled": true,
+			"origin": "Application",
+			"value": null
+		}
+	],
+	"info": {
+		"logoUrl": null,
+		"marketingUrl": null,
+		"privacyStatementUrl": null,
+		"supportUrl": null,
+		"termsOfServiceUrl": null
+	},
+	"keyCredentials": [],
+	"parentalControlSettings": {
+		"countriesBlockedForMinors": [],
+		"legalAgeGroupRule": "Allow"
+	},
+	"passwordCredentials": [],
+	"publicClient": {
+		"redirectUris": []
+	},
+	"requiredResourceAccess": [],
+	"verifiedPublisher": {
+		"displayName": null,
+		"verifiedPublisherId": null,
+		"addedDateTime": null
+	},
+	"web": {
+		"homePageUrl": "https://www.google.com?metadata=googleapps|ISV9.1|primary|z",
+		"logoutUrl": null,
+		"redirectUris": [
+			"https://www.google.com/a/*",
+			"https://www.google.com"
+		],
+		"implicitGrantSettings": {
+			"enableAccessTokenIssuance": false,
+			"enableIdTokenIssuance": true
+		},
+		"redirectUriSettings": [
+			{
+				"uri": "https://www.google.com/a/*",
+				"index": null
+			},
+			{
+				"uri": "https://www.google.com",
+				"index": null
+			}
+		]
+	},
+	"spa": {
+		"redirectUris": []
+	}
+}
